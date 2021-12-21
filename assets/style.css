@@ -155,15 +155,15 @@ p a:link {
 header {
   display: flex;
   flex-direction: row;
-  padding: 1rem 2rem;
+  padding: 2rem 2rem 1rem;
   width: 100%;
-  margin: 0 auto;
+  margin: 0;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
   position: fixed;
   top: 0;
-  background-color: var(--clr-light);
+  background: linear-gradient(var(--clr-light) 70%, rgba(248,248,248,0) 100%)
 }
 .logo {
   height: 50px;
